@@ -1,0 +1,8 @@
+Exract the files and place in the corresponding folder (inside Eclipse project):
+ReadMeFirst: this file
+
+/src/com.exercise.AndroidRssReader/AndroidRssReader.java
+/res/layout/main.xml
+/res/layout/rsslist.xml
+/AndroidManifest.xml
+
