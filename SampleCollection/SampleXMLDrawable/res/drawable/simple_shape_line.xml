@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definition of a simple oval shape -->
+<!-- ********************************* 
+	  shape : oval
+	 		  line
+	 		  ring
+	 		  rectangle
+	  color : fill color
+	    top : top padding
+	 bottom : bottom padding
+	   left : left padding
+	  right : right padding
+	 height : height of the shape
+	  width : width of the shape
+	 ********************************* -->
+<!-- 
+
+    <declare-styleable name="GradientDrawable">
+        <attr name="visible" />
+        <attr name="shape">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+        
+        Inner radius of the ring expressed as a ratio of the ring's width. For instance,
+        if innerRadiusRatio=9, then the inner radius equals the ring's width divided by 9.
+        This value is ignored if innerRadius is defined. Default value is 9.
+        <attr name="innerRadiusRatio" format="float" />
+        
+        Thickness of the ring expressed as a ratio of the ring's width. For instance,
+        if thicknessRatio=3, then the thickness equals the ring's width divided by 3.
+        This value is ignored if innerRadius is defined. Default value is 3.
+        <attr name="thicknessRatio" format="float" />
+        
+        Inner radius of the ring. When defined, innerRadiusRatio is ignored.
+        <attr name="innerRadius" format="dimension" />
+        
+        Thickness of the ring. When defined, thicknessRatio is ignored.
+        <attr name="thickness" format="dimension" />
+        
+        <attr name="useLevel" />
+    </declare-styleable>
+
+ -->
+<shape 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval"
+	android:top="10dip"
+	android:right="10dip"
+	android:left="10dip"
+	android:bottom="10dip"
+	android:color="#FFFF0000"
+	android:height="50dip"
+	android:width="50dip" />

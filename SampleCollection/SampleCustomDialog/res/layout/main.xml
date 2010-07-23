@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+    
+	<Button 
+		android:id="@+id/defaultDialog"
+		android:text="Default Dialog"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	    
+	<Button 
+		android:id="@+id/customDialog"
+		android:text="Custom Dialog"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    
+</LinearLayout>

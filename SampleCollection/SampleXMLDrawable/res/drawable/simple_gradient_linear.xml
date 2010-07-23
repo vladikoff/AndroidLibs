@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+	<declare-styleable name="GradientDrawableGradient">
+        <attr name="startColor" format="color" />
+        <attr name="centerColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="useLevel" format="boolean" />
+        <attr name="angle" format="float" />
+        <attr name="type">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep"  value="2" />
+        </attr>
+        <attr name="centerX" format="float|fraction" />
+        <attr name="centerY" format="float|fraction" />
+        <attr name="gradientRadius" format="float|fraction" />
+    </declare-styleable>
+    
+    tester de mettre plusieurs gradients
+
+ -->
+<shape 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval"
+	android:top="10dip"
+	android:right="10dip"
+	android:left="10dip"
+	android:bottom="10dip"
+	android:color="#FFFF0000"
+	android:height="50dip"
+	android:width="50dip" />

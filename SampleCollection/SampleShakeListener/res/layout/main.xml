@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="0|1">
+	
+		<TableRow>
+		
+			<TextView
+				android:text="X :"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"/>
+		
+			<TextView
+				android:id="@+id/x"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"/>
+		
+		</TableRow>
+	
+		<TableRow>
+		
+			<TextView
+				android:text="Y :"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"/>
+		
+			<TextView
+				android:id="@+id/y"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"/>
+		
+		</TableRow>
+	
+		<TableRow>
+		
+			<TextView
+				android:text="Z :"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"/>
+		
+			<TextView
+				android:id="@+id/z"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"/>
+		
+		</TableRow>
+	
+		<TableRow>
+		
+			<TextView
+				android:text="aX :"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"/>
+		
+			<TextView
+				android:id="@+id/ax"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"/>
+		
+		</TableRow>
+	
+		<TableRow>
+		
+			<TextView
+				android:text="aY :"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"/>
+		
+			<TextView
+				android:id="@+id/ay"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"/>
+		
+		</TableRow>
+	
+		<TableRow>
+		
+			<TextView
+				android:text="aZ"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"/>
+		
+			<TextView
+				android:id="@+id/az"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"/>
+		
+		</TableRow>
+		
+	</TableLayout>
+
+</LinearLayout>

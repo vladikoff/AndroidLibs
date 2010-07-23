@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definition of a simple oval shape -->
+<!-- 
+
+	<declare-styleable name="RotateDrawable">
+        <attr name="visible" />
+        <attr name="fromDegrees" format="float" />
+        <attr name="toDegrees" format="float" />
+        <attr name="pivotX" format="float|fraction" />
+        <attr name="pivotY" format="float|fraction" />
+        <attr name="drawable" />
+    </declare-styleable>
+    
+ -->
+<shape 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval"
+	android:top="10dip"
+	android:right="10dip"
+	android:left="10dip"
+	android:bottom="10dip"
+	android:color="#FFFF0000"
+	android:height="50dip"
+	android:width="50dip" />
